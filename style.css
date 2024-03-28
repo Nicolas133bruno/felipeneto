@@ -72,3 +72,11 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    padding: 10px; /* Ajusta o espaçamento interno */
+    display: inline-block; /* Para que a borda envolva o conteúdo */
+}
