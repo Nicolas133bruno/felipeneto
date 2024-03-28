@@ -72,3 +72,8 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+footer .container p {
+    border: 2px solid #ccc; /* Adiciona uma borda sólida de 2px */
+    padding: 10px; /* Adiciona espaço interno ao redor do texto */
+    display: inline-block; /* Faz com que o elemento se comporte como um bloco, permitindo definir largura e altura */
+}
