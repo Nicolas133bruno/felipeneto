@@ -67,9 +67,14 @@ section h2 {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Defina a altura desejada para o rodapé */
+}
+
+.container {
     text-align: center;
-    padding: 20px 0;
-    font-size: 18px; 
+}
+
 
