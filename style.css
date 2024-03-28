@@ -1,56 +1,14 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('felipe-neto-background.jpg');
-    background-size: cover;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-header {
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro semi-transparente */
-    color: #fff;
-    padding: 20px 0;
-}
-
-header h1 {
-    margin: 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
-section {
-    padding: 50px 0;
-    background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo branco semi-transparente */
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-section h2 {
-    margin-bottom: 20px;
-}
-
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo escuro semi-transparente */
+    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.6;
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    padding: 10px; /* Ajusta o espaçamento interno */
+    display: inline-block; /* Para que a borda envolva o conteúdo */
 }
